@@ -1,5 +1,5 @@
 {
-  "name": "reshacker",
+  "name": "win-reshacker",
   "description": "A wrapper around the cli of ResHacker",
   "version": "0.0.1",
   "author": "Patrick Michael Hopf",
