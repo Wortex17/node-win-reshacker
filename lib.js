@@ -15,6 +15,10 @@ function execCommandSync(pathToExecutable, args)
     return child_process.execSync(pathToExecutable + " " + args.join(" "));
 }
 
+/**
+ * @param config
+ * @constructor
+ */
 function ResHackInstance(config)
 {
     config = util._extend({}, config);
