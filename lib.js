@@ -1,6 +1,5 @@
 var
     child_process = require('child_process')
-    ,path = require('path')
     ,util = require('util')
     ;
 
