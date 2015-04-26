@@ -178,9 +178,12 @@ ResHackInstance.prototype.deleteSync = function(ExeFile, SaveAsFile, ResourceMas
  * @param config
  * @returns {ResHackInstance}
  */
-ResHackInstance.configureInstance = function(config)
+ResHackInstance.prototype.configureInstance = function(config)
 {
     return new ResHackInstance(config);
 };
 
+/**
+ * @type {ResHackInstance}
+ */
 module.exports = new ResHackInstance();
